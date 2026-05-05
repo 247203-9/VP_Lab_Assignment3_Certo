@@ -1,230 +1,363 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Certo - Mobile Privacy</title>
+    <title>Certo Software | Mobile Privacy</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top pt-3 pb-2">
-        <div class="container-fluid px-5">
-            <a class="navbar-brand fw-bold" href="#">
-                <img src="assets/images/logo.svg" alt="Certo" height="30">
+    <nav class="navbar navbar-expand-lg py-3 sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/images/logo.png" alt="Certo Logo" height="40">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="mainNav">
-                <ul class="navbar-nav mx-auto align-items-center">
-                    <li class="nav-item"><a class="nav-link px-3" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link px-3" href="#">Protect</a></li>
-                    <li class="nav-item"><a class="nav-link px-3" href="#">Help</a></li>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link mx-2" href="#">iPhone</a></li>
+                    <li class="nav-item"><a class="nav-link mx-2" href="#">Android</a></li>
+                    <li class="nav-item"><a class="nav-link mx-2" href="#">Help</a></li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle px-3" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Company
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-menu-item" href="#">About Us</a></li>
-                        </ul>
+                        <a class="nav-link dropdown-toggle mx-2" href="#" role="button"
+                            data-bs-toggle="dropdown">Company</a>
+                        <ul class="dropdown-menu"></ul>
+                    </li>
+                    <li class="nav-item ms-lg-3">
+                        <a class="btn btn-primary-certo" href="#">Sign In</a>
                     </li>
                 </ul>
-                <a class="btn btn-primary rounded-pill px-4" href="#">Sign In</a>
-                
             </div>
         </div>
     </nav>
-    <main>
-        <section class="hero-section py-5">
-            <div class="container-fluid px-5 py-5">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 pr-lg-5">
-                        <h1 class="fw-bold mb-4">Your mobile privacy is our mission</h1>
-                        <p class="lead text-muted mb-4">A simple phone security tool to protect your mobile device. Just download the app, activate, and rest easy knowing your mobile privacy is safe.</p>
-                        <div class="d-flex gap-3">
-                            <button class="btn btn-orange rounded-pill px-4 py-2 fw-semibold">Download free app</button>
-                            <button class="btn btn-outline-dark rounded-pill px-4 py-2">See how it works</button>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 text-center mt-5 mt-lg-0">
-                        <div class="hero-img-frame">
-                            <img src="assets/images/hero_phone.png" alt="Mobile App" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="testimonials-section py-5" style="background-color: #FFC107;">
-    <div class="container-fluid px-5">
-        <h2 class="fw-bold mb-5">Loved by thousands of iPhone <br> and Android users alike</h2>
-        
-        <div class="row g-4">
-            <div class="col-md-4">
-                <div class="card border-0 rounded-4 p-4 h-100">
-                    <div class="stars mb-2 text-warning">★★★★★</div>
-                    <p class="text-muted italic small">"Excellent for anyone who is concerned about their mobile privacy. It’s simple to use and very effective."</p>
-                    <p class="fw-bold mb-0">Johnathan</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card border-0 rounded-4 p-4 h-100">
-                    <div class="stars mb-2 text-warning">★★★★★</div>
-                    <p class="text-muted italic small">"Finally an app that actually does what it says. Peace of mind at last for my Android device."</p>
-                    <p class="fw-bold mb-0">Sarah K.</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card border-0 rounded-4 p-4 h-100">
-                    <div class="stars mb-2 text-warning">★★★★★</div>
-                    <p class="text-muted italic small">"The setup was so easy. I love the dashboard and how it keeps me informed 24/7."</p>
-                    <p class="fw-bold mb-0">David Miller</p>
+
+    <section class="hero-section">
+        <div class="hero-left">
+            <div class="hero-left-inner">
+                <h1>Your mobile privacy is our mission</h1>
+                <p>Think your phone has been hacked? Our trusted apps make it easy for you to scan, detect and remove
+                    threats from your iPhone and Android devices.</p>
+                <div class="hero-ctas">
+                    <a href="#" class="btn-certo-yellow">Get Certo for iPhone &rarr;</a>
+                    <a href="#" class="btn-outline-android">Get Certo for Android</a>
                 </div>
             </div>
         </div>
 
-        <div class="row mt-5 pt-5 text-center align-items-center opacity-75">
-            <div class="col-4 col-md-2"><h5>CNBC</h5></div>
-            <div class="col-4 col-md-2"><h5>Forbes</h5></div>
-            <div class="col-4 col-md-2"><h5>The Guardian</h5></div>
-            <div class="col-4 col-md-2"><h5>Wired</h5></div>
-            <div class="col-4 col-md-2"><h5>TechCrunch</h5></div>
-            <div class="col-4 col-md-2"><h5>The Verge</h5></div>
+        <div class="hero-right">
+            <div class="hero-frame">
+                <img src="assets/images/hero.png" alt="Background" class="hero-bg-layer">
+                <img src="assets/images/mobile.png" alt="Phone" class="hero-phone-layer">
+            </div>
         </div>
-    </div>
-    <section class="testimonials py-5" style="background-color: #FFC107;">
-    <div class="container text-center">
-        <h2 class="fw-bold mb-5">Loved by thousands...</h2>
-        </div>
-</section>
+    </section>
 
-<section class="logo-bar py-4 bg-light border-bottom">
-    <div class="container">
-        <div class="row align-items-center text-center opacity-50">
-            <div class="col-4 col-md-2"><img src="assets/images/logo-cnbc.svg" class="img-fluid" alt="CNBC"></div>
-            <div class="col-4 col-md-2"><img src="assets/images/logo-forbes.svg" class="img-fluid" alt="Forbes"></div>
-            <div class="col-4 col-md-2"><img src="assets/images/logo-guardian.svg" class="img-fluid" alt="Guardian"></div>
-            <div class="col-4 col-md-2"><img src="assets/images/logo-wired.svg" class="img-fluid" alt="Wired"></div>
-            <div class="col-4 col-md-2"><img src="assets/images/logo-techcrunch.svg" class="img-fluid" alt="TechCrunch"></div>
-            <div class="col-4 col-md-2"><img src="assets/images/logo-verge.svg" class="img-fluid" alt="Verge"></div>
-        </div>
-    </div>
-</section>
-</section>
-<section class="features-grid py-5 bg-white">
-    <div class="container py-5">
-        <div class="text-center mb-5">
-            <h2 class="fw-bold display-6">Get your freedom back, stop mobile spyware today</h2>
-        </div>
-        
-        <div class="row g-5">
-            <div class="col-md-4 col-6">
-                <div class="feature-card h-100 p-3">
-                    <img src="assets/images/icon-spyware.svg" alt="Spyware" class="mb-3" width="45">
-                    <h5 class="fw-bold">Spyware detection</h5>
-                    <p class="text-muted small">Our core feature. We scan your device for any known spyware.</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-6">
-                <div class="feature-card h-100 p-3">
-                    <img src="assets/images/icon-jailbreak.svg" alt="Jailbreak" class="mb-3" width="45">
-                    <h5 class="fw-bold">Jailbreak detection</h5>
-                    <p class="text-muted small">Verification of your device's operating system security.</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-6">
-                <div class="feature-card h-100 p-3">
-                    <img src="assets/images/icon-financial.svg" alt="Financial" class="mb-3" width="45">
-                    <h5 class="fw-bold">Financial protection</h5>
-                    <p class="text-muted small">Keep your banking and financial data secure from prying eyes.</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-6">
-                <div class="feature-card h-100 p-3">
-                    <img src="assets/images/icon-dashboard.svg" alt="Dashboard" class="mb-3" width="45">
-                    <h5 class="fw-bold">Security dashboard</h5>
-                    <p class="text-muted small">A central hub to monitor all your security settings.</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-6">
-                <div class="feature-card h-100 p-3">
-                    <img src="assets/images/icon-scan.svg" alt="Scan" class="mb-3" width="45">
-                    <h5 class="fw-bold">Smart scan</h5>
-                    <p class="text-muted small">Deep scan technology to find hidden threats.</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-6">
-                <div class="feature-card h-100 p-3">
-                    <img src="assets/images/icon-stats.svg" alt="Stats" class="mb-3" width="45">
-                    <h5 class="fw-bold">Device stats</h5>
-                    <p class="text-muted small">Detailed reports on your device's health and security.</p>
-                </div>
-            </div>
-        </div>
 
-        <div class="text-center mt-5 d-flex justify-content-center gap-3">
-            <button class="btn btn-orange rounded-pill px-4 fw-bold">See all features</button>
-            <button class="btn btn-outline-dark rounded-pill px-4">Is my phone hacked?</button>
-        </div>
-    </div>
-</section>
-        </main>
-
-    <footer class="footer-dark bg-dark text-white py-5">
-        <div class="container-fluid px-5">
-            <div class="row">
-                <div class="col-md-3">
-                    <p>Contact | Terms</p>
-                    <p>Designed and Built in London</p>
-                    <p>2022 Certo</p>
-                </div>
-                </div>
-        </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<footer class="footer-main py-5">
+<section class="testimonials-section py-5">
     <div class="container py-4">
-        <div class="row align-items-start">
-            <div class="col-md-4 mb-4 mb-md-0">
-                <h4 class="fw-bold mb-4">Scan. Detect. Remove.</h4>
-                <div class="social-icons d-flex gap-3 mb-4">
-                    <img src="assets/images/icon-twitter.svg" alt="Twitter" width="24">
-                    <img src="assets/images/icon-facebook.svg" alt="Facebook" width="24">
-                    <img src="assets/images/icon-youtube.svg" alt="Youtube" width="24">
+        <h2 class="section-title fw-bold mb-5">Loved by thousands of iPhone <br> and Android users alike</h2>
+        
+        <div class="testimonial-wrapper mb-5">
+            <div class="d-flex flex-nowrap gap-4 pb-4 justify-content-center">
+                
+                <div class="testimonial-card opacity-50">
+                    <div class="stars mb-3">★★★★★</div>
+                    <p class="review-text">Great privacy features.Does exactly what it says. Clear to read and understand. This is now the second iPhone we’ve used it on and would certainly recommend this app.</p>
+                    <p class="author fw-bold mt-auto mb-0">User 0</p>
                 </div>
-                <div class="footer-links-small mb-4">
-                    <a href="#" class="text-white text-decoration-none me-3">Privacy Policy</a>
-                    <a href="#" class="text-white text-decoration-none">Terms of Service</a>
+
+                <div class="testimonial-card">
+                    <div class="stars mb-3">★★★★★</div>
+                    <p class="review-text">Does exactly what it says. Clear to read and understand. This is now the second iPhone we've used it on and would certainly recommend this app.</p>
+                    <p class="author fw-bold mt-auto mb-0">colinandmandy94</p>
                 </div>
-                <p class="small text-secondary mb-1">Copyright © 2022 Certo Software Limited | Registered in England & Wales No. 10072356</p>
-                <p class="small text-secondary">Designed & developed by Bigger Picture</p>
+
+                <div class="testimonial-card">
+                    <div class="stars mb-3">★★★★★</div>
+                    <p class="review-text">Love the ease and efficiency. Awesome app. Very informative and insightful if wanting to know more about your device. The added breach check is a great bonus.Check any email of they've ever been named in a data breach from years ago.Sweet tool. Love it highly recommend.</p>
+                    <p class="author fw-bold mt-auto mb-0">Jennifer Black</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars mb-3">★★★★★</div>
+                    <p class="review-text">This app is good if you need to identify certain vulnerabilities on your iPhone. If you have any issues, their customer service was quite helpful and responsive.</p>
+                    <p class="author fw-bold mt-auto mb-0">Phillip Colligan</p>
+                </div>
+
+                <div class="testimonial-card opacity-50">
+                    <div class="stars mb-3">★★★★★</div>
+                    <p class="review-text">Excellent support and tools...</p>
+                    <p class="author fw-bold mt-auto mb-0">Lesil</p>
+                </div>
+
+            </div>
+        </div>
+
+
+
+    <div class="featured-row mt-5 pt-5 border-top border-dark border-opacity-10">
+    <div class="d-flex align-items-center justify-content-between flex-wrap gap-4">
+        <div class="featured-label fw-bold">Featured in:</div>
+        
+         <div class="col-auto"><img src="assets/images/cnbc-blue-2.svg.png" alt="CNBC" class="logo-img"></div>
+                <div class="col-auto"><img src="assets/images/newyork.png" alt="NY Post" class="logo-img"></div>
+                <div class="col-auto"><img src="assets/images/financial.png" alt="Financial Times" class="logo-img"></div>
+                <div class="col-auto"><img src="assets/images/readers-digest-blue-2.svg.png" alt="Reader's Digest" class="logo-img"></div>
+                <div class="col-auto"><img src="assets/images/zd-net-blue-2.svg.png" alt="ZDNet" class="logo-img"></div>
+                <div class="col-auto"><img src="assets/images/wiredblue.png" alt="Wired" class="logo-img"></div>
+    </div>
+</div>
+        
+</section>
+
+
+
+<section class="certo-about-section py-5">
+    <div class="container py-5">
+        <div class="row align-items-center g-5">
+            <div class="col-lg-6">
+                <h2 class="display-5 fw-bold mb-4" style="color: #02033B;">
+                    At Certo, mobile security <br> is not an afterthought, it’s <br> what we do.
+                </h2>
+                <p class="fs-5 mb-5" style="color: #02033B; opacity: 0.8; line-height: 1.6;">
+                    With years of experience in mobile security and spyware detection, our products have helped countless people safeguard their devices and find peace of mind.
+                </p>
+                <div class="d-flex flex-column gap-3 align-items-start">
+                    <a href="#" class="btn btn-primary-custom">Get Certo for iPhone &nbsp; <i class="bi bi-arrow-right"></i></a>
+                    <a href="#" class="btn btn-secondary-custom">Get Certo for Android</a>
+                </div>
+            </div>
+    <div class="col-lg-6">
+    <div class="certo-image-frame">
+        <img src="assets/images/girl.png" alt="Certo Mobile Security" class="img-fluid">
+    </div>
+</div>
+    </div>
+</section>
+
+
+<section class="features-section-wrapper py-5"> 
+    <div class="container">
+        <h2 class="text-center section-main-title mb-4">
+            Get your freedom back, stop mobile <br class="d-none d-md-block"> spyware today
+        </h2>
+
+        <div class="row justify-content-center">
+            <div class="feature-main-card">
+                
+                <div class="row g-4 g-md-5">
+                    <div class="col-12 col-md-6 col-lg-4 feature-item">
+                        <div class="icon-box mb-3">
+                            <img src="assets/images/spy (1).png" alt="Icon">
+                        </div>
+                        <h3>Spyware detection</h3>
+                        <p>Our advanced spyware detection engine can identify if a device contains spyware or bugging software.</p>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 feature-item">
+                        <div class="icon-box mb-3">
+                            <img src="assets/images/spy (3).png" alt="Icon">
+                        </div>
+                        <h3>Keylogger detection</h3>
+                        <p>Find malicious keyboards installed on your device that could allow someone to record things you type (e.g. passwords).</p>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 feature-item">
+                        <div class="icon-box mb-3">
+                            <img src="assets/images/spy (2).png" alt="Icon">
+                        </div>
+                        <h3>Find tracking apps</h3>
+                        <p>Check which apps can access your location, microphone or camera. Get alerted if a known tracking app is installed.</p>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 feature-item">
+                        <div class="icon-box mb-3">
+                            <img src="assets/images/spy (4).png" alt="Icon">
+                        </div>
+                        <h3>OS integrity check</h3>
+                        <p>Analyze your operating system for signs of tampering that could compromise security, such as Jailbreaking.</p>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 feature-item">
+                        <div class="icon-box mb-3">
+                            <img src="assets/images/spy (5).png" alt="Icon">
+                        </div>
+                        <h3>Threat removal</h3>
+                        <p>Our intelligent scan will either safely remove threats for you or provide easy-to-follow instructions.</p>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 feature-item">
+                        <div class="icon-box mb-3">
+                            <img src="assets/images/spy (6).png" alt="Icon">
+                        </div>
+                        <h3>Easy to use</h3>
+                        <p>We create easy to use apps that can check your device for vulnerabilities in a matter of minutes.</p>
+                    </div>
+                </div>
+
+                <div class="feature-btn-row mt-5">
+    
+    <a href="#" class="btn btn-certo-primary">
+        Get Certo for iPhone <span class="arrow">&rarr;</span>
+    </a>
+
+    <a href="#" class="btn btn-certo-outline">
+        Get Certo for Android
+    </a>
+
+</div>
+    </div>
+</section>
+
+
+
+
+<section class="story-help-section">
+    <div class="container">
+        <div class="row align-items-center justify-content-center g-5">
+            
+            <div class="col-auto d-flex justify-content-center">
+                <div class="story-card-wrapper">
+                    <h3>Read our story</h3>
+                    <p>Find out why thousands trust Certo to secure their mobile world.</p>
+                    <a href="#" class="btn-purple">About us &nbsp; &rarr;</a>
+                </div>
             </div>
 
-            <div class="col-md-3 mb-4 mb-md-0">
-                <h3 class="fw-bold border-bottom border-secondary pb-2 mb-4" style="width: fit-content;">Certo</h3>
-                <ul class="list-unstyled footer-yellow-links">
-                    <li><a href="#">iPhone</a></li>
-                    <li><a href="#">Android</a></li>
-                    <li><a href="#">Help</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Insights</a></li>
+            <div class="col-12 col-md-5 text-start">
+                <div class="help-content">
+                    <h3 style="color: #02033B; font-weight: 800; font-size: 2rem;">Help Center</h3>
+                    <p style="color: #585E77; font-size: 1.1rem;">Help topics, getting started guides and FAQs.</p>
+                    <a href="#" class="btn" style="border: 2px solid #02033B; border-radius: 50px; padding: 12px 35px; color: #02033B; font-weight: 700; text-decoration: none; display: inline-block; margin-top: 10px;">Visit help center</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="blue-cta-section">
+    <h2 style="font-weight: 800; font-size: 2.5rem; margin-bottom: 20px;">Is someone spying on your phone?</h2>
+    <p style="font-size: 1.2rem; margin-bottom: 40px;">Find out with Certo</p>
+    <div class="d-flex justify-content-center gap-3">
+        <a href="#" class="btn btn-yellow" style="background-color: #FFC247; color: #02033B; font-weight: 800; border-radius: 50px; padding: 15px 35px; text-decoration: none;">Get Certo for iPhone &nbsp; &rarr;</a>
+        <a href="#" class="btn btn-outline-white" style="border: 2px solid #ffffff; color: #ffffff; font-weight: 700; border-radius: 50px; padding: 15px 35px; text-decoration: none;">Get Certo for Android</a>
+    </div>
+</section>
+
+<section class="insights-section py-5">
+    <div class="container">
+        <h2 class="section-title text-center mb-5">Latest insights</h2>
+        
+        <div class="row g-4 justify-content-center">
+            <div class="col-auto">
+                <div class="insight-card-fixed">
+                    <div class="card-img-wrapper">
+                        <img src="assets/images/spying.png" alt="Insight 1">
+                        <span class="badge-tag">Expertise</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Signs Your Ex Is Spying On You</h3>
+                        <p>In an ideal world, after a relationship ends both you and your ex will move on. But what if they can’t let go, and start spying on your...</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-auto">
+                <div class="insight-card-fixed">
+                    <div class="card-img-wrapper">
+                        <img src="assets/images/samsung.png" alt="Insight 2">
+                        <span class="badge-tag">Guides</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>How to Remove a Hacker from Your Samsung Phone</h3>
+                        <p>Samsung is the second most popular manufacturer of smartphones in the world, with a market share of 28.19% compared to Apple’s 28.43% as...</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-auto">
+                <div class="insight-card-fixed">
+                    <div class="card-img-wrapper">
+                        <img src="assets/images/cctv.png" alt="Insight 3">
+                        <span class="badge-tag">Expertise</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Is Your Cell Phone Under Surveillance?</h3>
+                        <p>In today’s surveillance state, it can feel like your every move is being watched. Although your mind may be conjuring up images of CCTV...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-5">
+            <a href="#" class="btn-view-all">View all insights &nbsp; &rarr;</a>
+        </div>
+    </div>
+</section>
+           
+<footer class="footer-section">
+    <div class="container">
+        <div class="row gy-5">
+            <div class="col-lg-3">
+                <h2 class="footer-brand">Scan. Detect. Remove.</h2>
+                
+                <div class="social-icons d-flex gap-3 my-4">
+                    <a href="#"><img src="assets/images/twitter.png" alt="Twitter"></a>
+                    <a href="#"><img src="assets/images/facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="assets/images/youtube.png" alt="YouTube"></a>
+                </div>
+                
+                <div class="legal-links">
+                    <p><a href="#">Privacy Policy</a> &nbsp;&nbsp; <a href="#">Terms of Service</a></p>
+                    <p class="mt-3 opacity-50">Copyright © 2022 Certo Software Limited | Registered in England & Wales No. 10072356</p>
+                    <p class="opacity-50">Designed & developed by <u>Bigger Picture</u></p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 offset-lg-1">
+                <h3 class="footer-logo">Certo</h3>
+                <div class="footer-divider"></div>
+                <ul class="nav-links list-unstyled">
+                    <li>— iPhone</li>
+                    <li>— Android</li>
+                    <li>— Help</li>
+                    <li>— About</li>
+                    <li>— Insights</li>
                 </ul>
             </div>
 
-            <div class="col-md-5">
-                <div class="newsletter-card p-4 rounded-5">
-                    <h3 class="fw-bold text-dark mb-3">Sign up to our newsletter</h3>
-                    <p class="text-dark small mb-4">Receive the latest mobile security news, exclusive discounts & offers straight to your inbox!</p>
-                    <div class="input-group newsletter-input">
-                        <input type="email" class="form-control rounded-pill-start" placeholder="Email address">
-                        <button class="btn btn-dark rounded-pill-end px-4">Submit</button>
+            <div class="col-lg-5 text-end">
+                <div class="newsletter-box text-start d-inline-block">
+                    <h3>Sign up to our newsletter</h3>
+                    <p>Receive the latest mobile security news, exclusive discounts & offers straight to your inbox!</p>
+                    <div class="input-group-custom">
+                        <input type="email" placeholder="Email address">
+                        <button type="submit">Submit</button>
                     </div>
                 </div>
+
+                <div class="white-placeholder-box"></div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-12">
+                <p class="disclaimer-text">
+                    Apple, the Apple logo, and iPhone are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Android, Google Play and the Google Play logo are trademarks of Google LLC.
+                </p>
             </div>
         </div>
     </div>
 </footer>
+        </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
